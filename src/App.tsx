@@ -1,9 +1,9 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Terminal, Cpu, Info } from 'lucide-react';
-import { Message, Sender } from "../types.ts"
-import { sendMessageToGemini } from '../services/geminiService.ts';
-import MessageBubble from '../components/MessageBubble.tsx';
-import InputArea from '../components/InputArea.tsx';
+import { Message, Sender } from "../types"
+import { sendMessageToGemini } from '../services/geminiService';
+import MessageBubble from '../components/MessageBubble';
+import InputArea from '../components/InputArea';
 
 const INITIAL_MESSAGE: Message = {
   id: 'init-1',
